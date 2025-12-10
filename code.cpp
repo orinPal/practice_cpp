@@ -1,12 +1,11 @@
 #include <iostream>
-#include <vector>
 #include <string>
-#include <algorithm>
+#include <cmath>
 
-// using namespace std;
-using std::cout;
-using std::cin;
-using std::string;
+using namespace std;
+// using std::cout;
+// using std::cin;
+// using std::string;
 
 int main() {
   // // --------------------------
@@ -286,6 +285,228 @@ int main() {
 
   // char str[13] = "Hello World!";
   // cout << str << '\n';
+
+  // // --------------------------
+  // // Math
+  // // --------------------------
+  // cout << max(5, 7) << '\n';
+  // cout << min(5, 7) << '\n';
+  // cout << sqrt(49) << '\n';
+  // cout << round(4.9) << '\n';
+  // cout << log(2) << '\n';
+
+  // // --------------------------
+  // // Boolean
+  // // --------------------------
+  // bool isCodingFun = true;
+  // bool isErrorFun = false;
+  // cout << isCodingFun << '\n';
+  // cout << isErrorFun << '\n';
+
+  // cout << boolalpha;
+  // cout << isCodingFun << '\n';
+  // cout << isErrorFun << '\n';
+
+  // cout << noboolalpha;
+  // cout << isCodingFun << '\n';
+  // cout << isErrorFun << '\n';
+
+  // // --------------------------
+  // // Condiiton and if else Statements
+  // // --------------------------
+  // int age = 19;
+  // if(age >= 18) {
+  //   cout << "You can vote." << '\n';
+  // } else {
+  //   cout << "You can't vote" << '\n';
+  // }
+  // string drivingLisence = (age >= 18) ? "Can have a driving lisence": "Can't have a driving lisense";
+  // cout << drivingLisence << '\n';
+
+  // int n;
+  // cin >> n;
+  // string evenOrOdd = ((n % 2) == 0) ? "Even": "Odd";
+  // cout << evenOrOdd << '\n';
+
+  // // --------------------------
+  // // Switch Statements
+  // // --------------------------
+  // int day;
+  // cin >> day;
+
+  // switch(day) {
+  //   case 1:
+  //     cout << "Sunday" << '\n';
+  //     break;
+  //   case 2:
+  //     cout << "Monday" << '\n';
+  //     break;
+  //   case 3:
+  //     cout << "Tuesday" << '\n';
+  //     break;
+  //   case 4:
+  //     cout << "Wednesday" << '\n';
+  //     break;
+  //   case 5:
+  //     cout << "Thursday" << '\n';
+  //     break;
+  //   case 6:
+  //     cout << "Friday" << '\n';
+  //     break;
+  //   case 7:
+  //     cout << "Saturday" << '\n';
+  //     break;
+  //   default:
+  //     cout << "Enter a number between 1 - 7" << '\n';
+  //     break;
+  // }
+
+  // char ch;
+  // cin >> ch;
+
+  // switch(ch) {
+  //   case 'a':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'e':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'i':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'o':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'u':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'A':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'E':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'I':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'O':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   case 'U':
+  //     cout << "Vowel" << '\n';
+  //     break;
+  //   default:
+  //     cout << "Consonant" << '\n';
+  //     break;
+
+  // }
+
+  // switch(ch) {
+  //   case 'a': case 'e': case 'i': case 'o': case 'u':
+  //   case 'A': case 'E': case 'I': case 'O': case 'U':
+  //     cout << "vowel" << '\n';
+  //     break;
+  //   default:
+  //   if(isalpha(ch)) {
+  //     cout << "consonant" << '\n';
+  //   } else {
+  //     cout << "enter a valid character" << '\n';
+  //   }
+  // }
+
+  // int mark;
+  // cin >> mark;
+  // switch(mark / 10) {
+  //   case 0: case 1: case 2: case 3:
+  //     cout << "F" << '\n';
+  //     break;
+  //   case 4: case 5:
+  //     cout << "c" << '\n';
+  //     break;
+  //   case 6:
+  //     cout << "B" << '\n';
+  //     break;
+  //   case 7:
+  //     cout << "A" << '\n';
+  //     break;
+  //   case 8: case 9: case 10:
+  //     cout << "A+" << '\n';
+  //     break;
+  //   default:
+  //     cout << "Enter a valid mark" << '\n';
+  //     break;
+  // }
+
+  // // --------------------------
+  // // While Loop
+  // // --------------------------
+  // int i = 0;
+  // while(i <= 5) {
+  //   cout << i << '\n';
+  //   i++;
+  // }
+  // int j = 0;
+  // while(j <= 5) {
+  //   cout << j++ << '\n';
+  // }
+  // int k = 0;
+  // while(k <= 5) {
+  //   cout << ++k << '\n';
+  // }
+
+  // // --------------------------
+  // // Do While
+  // // --------------------------
+  // int i = 7;
+  // do {
+  //   cout << i << '\n';
+  //   i++;
+  // } while(i < 5);
+
+  // int num = 12345;
+  // int revNum = 0;
+
+  // while(num) {
+  //   revNum = (revNum * 10) + (num % 10);
+  //   num /= 10;
+  // }
+
+  // cout << revNum << '\n';
+
+  // string str;
+  // getline(cin, str);
+  // string revStr;
+  // revStr.resize(str.length());  // allocate space
+  // int lastIndexOfStr = str.length() - 1;
+  // int i = 0, j = lastIndexOfStr;
+
+  // while(i <= lastIndexOfStr) {
+  //   revStr[i] = str[j];
+  //   i++;
+  //   j--;
+  // }
+
+  // cout << revStr << '\n';
+
+  // // --------------------------
+  // // For Loop
+  // // --------------------------
+  // for(int i = 0; i <= 10; i++) {
+  //   cout << i << '\n';
+  // }
+
+  // string str;
+  // getline(cin, str);
+  // string revStr;
+  // revStr.resize(str.length());  // allocate space
+  // int end = str.length() - 1;
+  // int j = end;
+
+  // for(int i = 0; i <= end; i++) {
+  //   revStr[i] = str[j];
+  //   j--;
+  // }
+  // cout << revStr << '\n';
 
   
 
