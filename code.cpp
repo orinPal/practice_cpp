@@ -7,7 +7,27 @@ using namespace std;
 // using std::cout;
 // using std::cin;
 // using std::string;
+// struct student {
+//   string name;
+//   int age;
+//   bool enrolled;
+// };
 
+// struct car {
+//   string name;
+//   string color;
+//   int price;
+//   bool soldOut;
+
+  // car(string n, string c, int p, bool s): name(n), color(c), price(p), soldOut(s) {} // not manditory
+// };
+
+// void printCar(car val) {
+//   cout << val.name << '\n';
+//   cout << val.color << '\n';
+//   cout << val.price << '\n';
+//   cout << val.soldOut << '\n';
+// }
 int main() {
   // // --------------------------
   // // Basic Output
@@ -586,6 +606,54 @@ int main() {
   //   cout << months[i] << '\n';
   // }
   // cout << months.size() << '\n';
+  // vector <int> num;
+  // num.push_back(10);
+  // num.push_back(20);
+  // num.push_back(30);
+  // num.push_back(40);
+  // num.push_back(50);
+  // num.push_back(60);
+  // num.push_back(60);
+  // num.push_back(60);
+  // num.push_back(70);
+  
+  // cout << num.front() << '\n';
+  // cout << num.back() << '\n';
+  
+  // cout << num.size() << '\n';
+  // cout << num.capacity() << '\n';
+  // for(int val: num) {
+  //   cout << val << '\n';
+  // }
+
+  // // --------------------------
+  // // Structures
+  // // --------------------------
+
+  // student std1;
+  // std1.name = "abc def";
+  // std1.age = 18;
+  // std1.enrolled = true;
+
+  // student std2;
+  // std2.name = "ghi jkl";
+  // std2.age = 19;
+  // std2.enrolled = false;
+  // cout << boolalpha;
+  // cout << std1.name << '\n';
+  // cout << std1.age << '\n';
+  // cout << std1.enrolled << '\n';
+  // cout << std2.name << '\n';
+  // cout << std2.age << '\n';
+  // cout << std2.enrolled << '\n';
+  // cout << noboolalpha;
+  
+  // car car1 = {"Mahindra", "Black", 3000000, true};
+  // printCar(car1);
+
+  
+
+  
 
 
   
