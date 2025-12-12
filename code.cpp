@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <vector>
 
 using namespace std;
 // using std::cout;
@@ -507,6 +508,88 @@ int main() {
   //   j--;
   // }
   // cout << revStr << '\n';
+
+  // // --------------------------
+  // // Foreach Loop
+  // // --------------------------
+
+  string str = "hello world!";
+  // for(char ch: str) {
+  //   cout << ch << '\n';
+  // }
+
+  // // --------------------------
+  // // For Loop examples
+  // // --------------------------
+  // for(int i = 0; i <= 100; i+=10) {
+  //   cout << i << '\n';
+  // }
+  // for(int i = 0; i <= 10; i += 2) {
+  //   cout << i << '\n';
+  // }
+  // for(int i = 1; i <= 10; i += 2) {
+  //   cout << i << '\n';
+  // }
+  // for(int i = 1; i <= 512; i *= 2) {
+  //   cout << i << '\n';
+  // }
+  // int n;
+  // cin >> n;
+  // for(int i = 1; i <= 10; i++) {
+  //   cout << n << " * " << i << " = " << n * i << '\n';
+  // }
+
+  // for(int i = 0; i <= 10; i++) {
+  //   if(i == 5)
+  //     break;   
+  //   cout << i << '\n';
+  // }
+  //   for(int i = 0; i <= 10; i++) {
+  //   if(i == 5)
+  //     continue;   
+  //   cout << i << '\n';
+  // }
+
+  // // --------------------------
+  // // Array
+  // // --------------------------
+  // int num[] = {10, 20, 30, 40, 50, 60, 70, 80};
+  // string arr[] = {"hello", "world", "!"};
+
+  // for(int n: num) {
+  //   cout << n << '\n';
+  // }
+  // for(string str: arr) {
+  //   cout << str << '\n';
+  // }
+
+  // string cars[5];
+  // cars[0] = "Volvo";
+  // cars[1] = "BMW";
+  // cars[2] = "Ford";
+  // cars[3] = "Mazda";
+  // cars[4] = "Tesla";
+  
+  // vector<string> cars = {"volvo", "ford", "bmw"};
+  // cars.push_back("bmw");
+
+  // for(string str: cars) {
+  //   cout << str << '\n';
+  // }
+
+  // string num[] = {" "};
+  // cout << sizeof(num) << '\n';
+  // cout << num[0] << '\n'; 
+
+  // vector <string> months = {"jan", "feb", "march"};
+  // for(int i = 0; i <= 4; i++) {
+  //   cout << months[i] << '\n';
+  // }
+  // cout << months.size() << '\n';
+
+
+  
+
 
   
 
